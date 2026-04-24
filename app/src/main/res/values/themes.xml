@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Tema base para la aplicación -->
+    <style name="Theme.FutbolApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Color primario -->
+        <item name="colorPrimary">@color/primary_blue</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Color secundario -->
+        <item name="colorSecondary">@color/primary_blue</item>
+        <item name="colorSecondaryVariant">@color/primary_dark</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Color de fondo -->
+        <item name="android:windowBackground">@color/light_bg</item>
+
+        <!-- Color de la barra de estado -->
+        <item name="android:statusBarColor">@color/primary_blue</item>
+
+        <!-- Estilo de la barra de acción (Toolbar) -->
+        <item name="actionBarTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+
+
+
+    </style>
+
+    <!-- Tema para la barra de estado (opcional) -->
+    <style name="Theme.FutbolApp.StatusBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/primary_blue</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

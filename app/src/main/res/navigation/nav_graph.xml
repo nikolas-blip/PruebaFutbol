@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/equiposFragment">
+
+    <fragment
+        android:id="@+id/equiposFragment"
+        android:name="com.ejemplo.futbolapp.ui.equipos.EquiposFragment"
+        android:label="Equipos" />
+
+    <fragment
+        android:id="@+id/jugadoresFragment"
+        android:name="com.ejemplo.futbolapp.ui.jugadores.JugadoresFragment"
+        android:label="Jugadores" />
+
+    <fragment
+        android:id="@+id/goleadoresFragment"
+        android:name="com.ejemplo.futbolapp.ui.goleadores.GoleadoresFragment"
+        android:label="Goleadores" />
+
+</navigation>
